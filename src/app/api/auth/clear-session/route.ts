@@ -1,4 +1,5 @@
-export const dynamic = 'force-dynamic';
+export const revalidate = 0; // ეს ხაზი შეცვლის force-dynamic-ს
+
 import { NextRequest, NextResponse } from "next/server";
 import { destroySession } from "@/lib/auth";
 

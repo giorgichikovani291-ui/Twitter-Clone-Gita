@@ -11,7 +11,7 @@ const dbPath = path.join(dataDir, "app.db");
 const db = new Database(dbPath);
 db.pragma("journal_mode = WAL");
 db.pragma("foreign_keys = ON");
-
+if (process.env.npm_lifecycle_event !== "build") {
 db.exec(`
 CREATE TABLE IF NOT EXISTS users (
   id TEXT PRIMARY KEY,
@@ -770,5 +770,5 @@ function seedIfEmpty() {
   for (const m of dmSeed) insertMessage.run(randomUUID(), userIds[m.from], userIds[m.to], m.content, daysAgo(m.daysAgo));
 }
 seedIfEmpty();
-
+}
 export default db;

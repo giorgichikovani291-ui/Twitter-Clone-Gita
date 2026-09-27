@@ -1,4 +1,4 @@
-export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 import Link from "next/link";
 import { Heart, Repeat2, MessageCircle, UserPlus, AtSign, Quote, Bell } from "lucide-react";
 import { requireUser } from "@/lib/auth";

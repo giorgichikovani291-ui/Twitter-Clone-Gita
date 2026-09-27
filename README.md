@@ -74,3 +74,4 @@ src/
 - თუ `npm install` შეცდომით დასრულდა `better-sqlite3`-ზე, სცადეთ: `npm install --build-from-source better-sqlite3`. Windows-ზე ამას სჭირდება [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/) (C++ workload).
 - სუფთა გადატვირთვა: წაშალეთ `node_modules`, `.next` და `data/app.db*`, შემდეგ თავიდან `npm install`.
 - ბაზის „განულება" (დემო-მონაცემები თავიდან შეიქმნება): უბრალოდ წაშალეთ `data/app.db*` ფაილები.
+# Twitter-Clone-Gita

@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { requireUser } from "@/lib/auth";
 import { getFeed } from "@/lib/queries";
 import { getMoreFeedAction } from "@/lib/actions";

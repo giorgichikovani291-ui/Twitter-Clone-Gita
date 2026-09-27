@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import { requireUser } from "@/lib/auth";
 import { getBookmarks } from "@/lib/queries";
 import { getMoreBookmarksAction } from "@/lib/actions";

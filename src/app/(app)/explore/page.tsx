@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import Link from "next/link";
 import { Search, SearchX } from "lucide-react";
 import { requireUser } from "@/lib/auth";
